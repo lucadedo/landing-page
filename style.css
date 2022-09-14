@@ -172,3 +172,15 @@ button {
 #callsub {
     color: #F9FAF8;
 }
+/* footer */
+.footer {
+    background-color: #1F2937;
+    padding: 50px 22em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footertext {
+    color: #F9FAF8;
+    font-size: 20px;
+}
