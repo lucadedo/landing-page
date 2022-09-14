@@ -1,14 +1,14 @@
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell;
 }
+/*header*/
 .header {
     background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 8px;
+    padding: 20px;
     margin: 0%;
-    
 }
 #logo {
     color: #F9FAF8;
@@ -26,4 +26,51 @@ ul a {
     text-decoration: none;
     font-size: 18px;
     margin: 16px;
+}
+/*section1*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.section1 {
+    background-color: #1F2937;
+    display: flex;
+    padding: 10em 13em;
+    justify-content: space-between;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+.right img {
+    flex-shrink: 0;
+    width: 450px;
+    height: 250px;
+   
+}
+#headtext {
+    font-size: 48px;
+    color: #F9FAF8 ;
+    font-weight: bolder;
+    padding-right: 100px;
+}
+#subtext1 {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-right: 50px;
+}
+button {
+    padding: 7px 1em;
+    background-color:#3882F6 ;
+    width: 120px;
+}
+.sign-up {
+    font-size: 18px;
+    font-weight: 600;
+    color: #E5E7EB;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
 }
