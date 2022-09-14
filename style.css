@@ -46,6 +46,8 @@ ul a {
 }
 .right  {
     flex-shrink: 0;
+    display: flex;
+    justify-content: end;
 }
 .right img {
     width: 450px;
@@ -66,6 +68,7 @@ button {
     padding: 7px 1em;
     background-color:#3882F6 ;
     width: 120px;
+    border-radius: 8px;
 }
 .sign-up {
     font-size: 18px;
@@ -73,7 +76,6 @@ button {
     color: #E5E7EB;
     text-decoration: none;
     border: none;
-    border-radius: 8px;
 }
 /*section2*/
 .section2 {
@@ -138,4 +140,35 @@ button {
     color: #1F2937;
     display: flex;
     justify-content: flex-end;
+}
+/* section4 */
+.section4 {
+    padding: 50px 22em;
+    margin: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 30px;
+}
+.left4 {
+    display: flex;
+    flex-direction: column;
+    
+}
+.section4 .sign-up2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #E5E7EB;
+    text-decoration: none;
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    border-style: solid;
+}
+#call {
+    font-size: 28px;
+    color: #F9FAF8;
+}
+#callsub {
+    color: #F9FAF8;
 }
