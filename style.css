@@ -117,3 +117,25 @@ button {
     border-radius: 45px;
     padding-top: 5px;
 }
+/* section3 */
+.section3 {
+    background-color: #E5E7EB;
+    padding: 10em 22em;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-family: "ithalic";
+    color: #1F2937;
+}
+#author {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "ithalic";
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+}
